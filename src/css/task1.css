@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(223, 74, 74);
+}
+.nav-name{
+    background-color: rgb(82, 75, 75);
+    
+    height: 15vh;
+    
+  
+    
+}
+.ul-name{
+    display: flex;
+  
+ 
+  justify-content: space-around;
+
+}
+.li-nav{
+    list-style-type: none;
+    text-decoration: none;
+    
+font-size: 1.2rem;
+margin: 40px;
+list-style: none;
+
+
+}
+.reg-name,.log-name,.con-name{
+    color: rgb(30, 1, 58);
+  text-decoration: none;
+  font-size: 1.2rem;
+  
+}
+.reg-name:hover,.log-name:hover,.con-name:hover{
+ text-decoration:rgb(30, 30, 87);
+ background-color: rgb(66, 23, 23);
+}
+.div-tag{
+    text-align: center;
+}
+.btn-tag{
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+
+
+/* Registration styling */
+.registration-form {
+    width: 500px;
+    border: 7px double #ccc;
+    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(37, 1, 1, 0.2);
+    margin-top: 120px;
+    padding: 20px;
+    
+   
+  
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+  }
+  
+  .registration-form div {
+    margin-bottom: 10px;
+  }
+  
+  .registration-form label {
+    display: block;
+   
+  }
+  
+  .registration-form input, .registration-form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #062a51;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* Login styling */
+
+.login-form {
+    max-width: 400px;
+    margin-top: 120px;
+    padding: 20px;
+    border: 7px double #ccc;
+    border-radius: 4px;
+   
+    box-shadow: 0 0 20px rgba(246, 239, 239, 0.2);
+
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  /* contact styling*/
+
+.contact-div{
+    width: 500px;
+    border: 7px double #ccc;
+    border-radius: 2%;
+   padding: 20px;
+    margin-top: 150px;
+   
+padding: 20px;
+box-shadow: 0 0 20px rgba(246, 239, 239, 0.2);
+
+}
+.contact-form{
+    align-items: center;
+
+}
+.text-cont{
+    width: 100%;
+    height: 17vh;
+}
+.contact-div h2{
+    text-align: center;
+
+}
